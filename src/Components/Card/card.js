@@ -1,6 +1,9 @@
 import React from 'react'
 import "./card.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaCheck , FaTimes} from "react-icons/fa";
+
+
 
 const Card = () => {
   return (
@@ -15,18 +18,18 @@ const Card = () => {
                     <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
                     <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
                     <hr></hr>
-                    <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
+                    <ul>
+                    <li><span><FaCheck/></span> Single User</li>
+                    <li><span><FaCheck/></span> 5GB Storage</li>
+                    <li><span><FaCheck/></span> Unlimited Public Projects</li>
+                    <li><span><FaCheck/></span> Community Access</li>
+                    <li class="text-muted"><span><FaTimes/></span> Unlimited
                         Private Projects</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
+                    <li class="text-muted"><span><FaTimes/></span> Dedicated
                         Phone Support</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain
+                    <li class="text-muted"><span><FaTimes/></span> Free Subdomain
                     </li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                    <li class="text-muted"><span><FaTimes/></span> Monthly Status
                         Reports</li>
                     </ul>
                     <div class="d-grid">
@@ -43,15 +46,14 @@ const Card = () => {
                     <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
                     <hr></hr>
                     <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
-                        Reports</li>
+                    <li><span><FaCheck/></span> 5 Users</li>
+                    <li><span><FaCheck/></span> 50GB Storage</li>
+                    <li><span><FaCheck/></span> Unlimited Public Projects</li>
+                    <li><span><FaCheck/></span> Community Access</li>
+                    <li><span><FaCheck/></span> Unlimited Private Projects</li>
+                    <li><span><FaCheck/></span> Dedicated Phone Support</li>
+                    <li><span><FaCheck/></span> Free Subdomain</li>
+                    <li class="text-muted"><span><FaTimes/></span> Monthly Status Reports</li>
                     </ul>
                     <div class="d-grid">
                     <a href="#" class="btn btn-primary text-uppercase">Button</a>
@@ -67,16 +69,15 @@ const Card = () => {
                     <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
                     <hr></hr>
                     <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong>
+                    <li><span class="fa-li"><FaCheck/></span> Unlimited Users
                     </li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free
-                        Subdomains</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+                    <li><span><FaCheck/></span> 150GB Storage</li>
+                    <li><span><FaCheck/></span> Unlimited Public Projects</li>
+                    <li><span><FaCheck/></span> Community Access</li>
+                    <li><span><FaCheck/></span> Unlimited Private Projects</li>
+                    <li><span><FaCheck/></span> Dedicated Phone Support</li>
+                    <li><span><FaCheck/></span> Unlimited Free Subdomains</li>
+                    <li><span><FaCheck/></span> Monthly Status Reports</li>
                     </ul>
                     <div class="d-grid">
                     <a href="#" class="btn btn-primary text-uppercase">Button</a>
